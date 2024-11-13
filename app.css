@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    /* background-color: #6d878f; */
+    background-image: linear-gradient(to right top, #0db6ed, #009eff, #0081ff, #005cff, #4509f6);
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 300px;
+    height: max-content;
+    min-height: 300px;
+    background-color: #fbfbf2;
+    /* background-image: linear-gradient(to right top, #0db6ed, #009eff, #0081ff, #005cff, #4509f6); */
+    border-radius: 30px;
+    box-shadow: 0 30px 50px #5553;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+main form{
+    display: flex;
+    border: 1px solid #5553;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+main form input,
+main form button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+}
+
+main form i{
+    opacity: .7;
+}
+
+main .result{
+    text-align: center;
+    
+}
+main .result .name{
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+main .temperature img{
+    width: 150px;
+    filter: drop-shadow(0 10px 50px #000);
+}
+main .temperature figcaption{
+    font-size: 3em;
+}
+main .description{
+    padding: 10px 0 30px;
+
+}
+
+main ul{
+    
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+main li{
+    background-color: #06d6a0;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-image: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #0003 50%
+    );
+    font-weight: bold;
+    font-size: small;
+}
+
+main li i{
+    font-size: 2em;
+    display: block!important;
+    margin: 20px 0;
+}
+main li:nth-child(2){
+    background-color: #d9ed92;
+}
+main li:nth-child(3){
+    background-color: #1CEBE1;
+}
+h3{
+    text-align: center;
+    border-bottom: 2px solid #07546E;
+    /* color: #fff; */
+}
+h4{
+    margin-top: 5px;
+    text-align: center;
+}
+.geolocation{
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 25px solid #fff;
+    background-color: #00a5cf;
+    color: #fff;
+
+}
